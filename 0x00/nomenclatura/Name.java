@@ -26,23 +26,21 @@ public class Name {
     //B
     public URL url;
 
-    // Classe possui nomes próprios, funções devem ter verbos
+    /// Classe possui nomes próprios, funções devem ter verbos
     //A
-
+    public class TableRepresent {};
     public void saveCar(){};
-    //B
-    public class TableRepresenter{};
 
 
     // Uma palavra por conceito
-
-    //B
-    public void saveUser(){}; void createAccount(){}; void generateContract(){};
+    //A
+    public saveUser(){}; saveAccount(){}; saveContract(){};
 
 
     //Use constants, enums instead of magic numbers, abbreviations
-    //A
-    public int daysInYear = 360;
-    public int hoursInWeek = 168;
+
+    //B
+    public final int DAYS_IN_YEAR = 360;
+    public final int HOURS_IN_WEEK = 168;
 
 }
