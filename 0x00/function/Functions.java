@@ -10,12 +10,12 @@ public class Functions {
     }
 
     //Somente 1 nível de abstração
-
-    //B
+    //A
     @PostMapping("/user")
     public User saveUser(User user){
-        return userService.userRepository.save(user);
+        return userService.save(user);
     }
+
 
     // Arguments
     //A
